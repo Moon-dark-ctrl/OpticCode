@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Historial Clínico</title>
+  <link rel="stylesheet" href="Vistas/Estilos/Historial.css">
+</head>
+<body>
+  <header>
+    <h1>Historial Clínico</h1>
+  </header>
+  <main>
+    <section id="busqueda-usuario">
+      <h2>Buscar Usuario</h2>
+      <form id="formulario-busqueda-usuario">
+        <label for="nombre-usuario">Nombre del usuario:</label>
+        <input type="text" id="nombre-usuario" name="nombre-usuario">
+        <br> <br>
+        <label for="Folio">Folio:</label>
+        <input type="text" id="Folio-usuario" name="Folio">
+        <button type="submit">Buscar</button>
+      </form>
+    </section>
+    <section id="historial-clinico">
+      <h2>Historial Clínico</h2>
+      <table id="tabla-historial-clinico">
+        <thead>
+          <tr>
+            <th>Fecha</th>
+            <th>Diagnóstico</th>
+            <th>Tratamiento</th>
+            <th>Observaciones</th>
+          </tr>
+        </thead>
+        <tbody id="cuerpo-tabla-historial-clinico">
+        </tbody>
+      </table>
+    </section>
+  </main>
+  <script src="Historial.js"></script>
+</body>
+</html>
+

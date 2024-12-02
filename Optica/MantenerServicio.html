@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mantener servicios</title>
+  <link rel="stylesheet" href="Vistas/Estilos/Servicios.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#examenes">Examenes de la vista</a></li>
+        <li><a href="#venta-lentes">Venta de lentes y armazones</a></li>
+        <li><a href="#ajustes-reparacion">Ajustes y reparación de lentes</a></li>
+        <li><a href="#contactologia">Contactología</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="examenes">
+      <h2>Examenes de la vista</h2>
+      <p>Realizamos examenes de la vista para detectar problemas de visión y prescribir tratamientos adecuados.</p>
+      <form id="formulario-examenes">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre"><br><br>
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido"><br><br>
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" name="edad"><br><br>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+    <section id="venta-lentes">
+      <h2>Venta de lentes y armazones</h2>
+      <p>Ofrecemos una amplia variedad de lentes y armazones para satisfacer tus necesidades de visión.</p>
+      <form id="formulario-venta-lentes">
+        <label for="tipo-lente">Tipo de lente:</label>
+        <select id="tipo-lente" name="tipo-lente">
+          <option value="lente-de-sol">Lente de sol</option>
+          <option value="lente-de-lectura">Lente de lectura</option>
+          <option value="lente-de-contacto">Lente de contacto</option>
+        </select><br><br>
+        <label for="marca-armazon">Marca de armazón:</label>
+        <input type="text" id="marca-armazon" name="marca-armazon"><br><br>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+    <section id="ajustes-reparacion">
+      <h2>Ajustes y reparación de lentes</h2>
+      <p>Ofrecemos servicios de ajuste y reparación de lentes para asegurarnos de que tus lentes se ajusten perfectamente a tus necesidades.</p>
+      <form id="formulario-ajustes-reparacion">
+        <label for="tipo-ajuste">Tipo de ajuste:</label>
+        <select id="tipo-ajuste" name="tipo-ajuste">
+          <option value="ajuste-de-lente">Ajuste de lente</option>
+          <option value="reparacion-de-lente">Reparación de lente</option>
+        </select><br><br>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+    <section id="contactologia">
+      <h2>Contactología</h2>
+      <p>Ofrecemos servicios de contactología para ayudarte a encontrar las lentes de contacto adecuadas para tus necesidades.</p>
+      <form id="formulario-contactologia">
+        <label for="tipo-lente-contacto">Tipo de lente de contacto:</label>
+        <select id="tipo-lente-contacto" name="tipo-lente-contacto">
+          <option value="lente-de-contacto-soft">Lente de contacto soft</option>
+          <option value="lente-de-contacto-rigida">Lente de contacto rigida</option>
+        </select><br><br>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+    
+
+    

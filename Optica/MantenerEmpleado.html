@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Employee Management</title>
+ <link rel="stylesheet" href="Vistas/Estilos/Empleados.css">
+</head>
+<body>
+ <h1>Mantener Empleados</h1>
+ <table>
+ <thead>
+ <tr>
+ <th>Nombre</th>
+ <th>Apellido completo</th>
+ <th>Puesto</th>
+ <th>Acciones</th>
+ </tr>
+ </thead>
+ <tbody id="employees">
+ <!-- Employees will be displayed here -->
+ </tbody>
+ </table>
+ <form id="employee-form">
+ <legend>Añadir Empleado</legend>
+ <label for="name">Nombre:</label>
+ <input type="text" id="name" name="name"><br><br>
+ <label for="last-name">Apellido completo:</label>
+ <input type="text" id="last-name" name="last-name"><br><br>
+ <label for="position">Puesto:</label>
+ <input type="text" id="position" name="position"><br><br>
+ <button type="submit">Añadir Empleado</button>
+ </form>
+ <script src="Empleado.js"></script>
+</body>
+</html>

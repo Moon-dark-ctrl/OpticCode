@@ -1,0 +1,125 @@
+/* Estilos generales */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  header nav ul li {
+    margin-right: 20px;
+  }
+  
+  header nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+main {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+  
+  section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input, select {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    width: 100%;
+    height: 40px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #71b095;
+  }
+  
+  /* Estilos para la sección de examenes */
+  
+  #examenes {
+    background-color: #f7f7f7;
+  }
+  
+  #examenes form {
+    margin-top: 0;
+  }
+  
+  /* Estilos para la sección de venta de lentes */
+  
+  #venta-lentes {
+    background-color: #f2f2f2;
+  }
+  
+  #venta-lentes form {
+    margin-top: 0;
+  }
+  
+  /* Estilos para la sección de ajustes y reparación */
+  
+  #ajustes-reparacion {
+    background-color: #e7e7e7;
+  }
+  
+  #ajustes-reparacion form {
+    margin-top: 0;
+  }
+  
+  /* Estilos para la sección de contactología */
+  
+  #contactologia {
+    background-color: #d7d7d7;
+  }
+  
+  #contactologia form {
+    margin-top: 0;
+  }
+  
+  

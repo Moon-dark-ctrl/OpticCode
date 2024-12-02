@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Óptica Visual</title>
+  <link rel="stylesheet" href="Vistas/Estilos/Oferta.css">
+</head>
+<body>
+  <header>
+    <h1>Óptic Vision</h1>
+  </header>
+  <main>
+    <section id="alta-ofertas">
+      <h2>Mantener Oferta</h2>
+      <form id="formulario-alta-ofertas">
+        <label for="nombre-oferta">Nombre de la oferta:</label>
+        <input type="text" id="nombre-oferta" name="nombre-oferta"><br><br>
+        <label for="descripcion-oferta">Descripción de la oferta:</label>
+        <textarea id="descripcion-oferta" name="descripcion-oferta"></textarea><br><br>
+        <label for="precio-oferta">Precio de la oferta:</label>
+        <input type="number" id="precio-oferta" name="precio-oferta"><br><br>
+        <label for="imagen-oferta">Imagen de la oferta:</label>
+        <input type="file" id="imagen-oferta" name="imagen-oferta"><br><br>
+        <button type="submit">Dar de alta</button>
+      </form>
+      <table id="tabla-ofertas">
+        <thead>
+          <tr>
+            <th>Nombre de la oferta</th>
+            <th>Descripción de la oferta</th>
+            <th>Precio de la oferta</th>
+            <th>Imagen de la oferta</th>
+            <th>Acciones</th>
+          </tr>
+        </thead>
+        <tbody id="cuerpo-tabla">
+
+        </tbody>
+      </table>
+    </section>
+  </main>
+  <script src="Oferta.js"></script>
+</body>
+</html>
